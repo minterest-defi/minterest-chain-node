@@ -6036,11 +6036,16 @@ dependencies = [
 name = "risk-manager"
 version = "0.6.0"
 dependencies = [
+ "controller",
+ "dex",
  "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
  "frame-system 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "liquidation-pools",
  "liquidity-pools",
+ "minterest-model",
  "minterest-primitives",
  "minterest-protocol",
+ "mnt-token",
  "orml-currencies",
  "orml-tokens",
  "orml-traits 0.4.1-dev",
@@ -6054,6 +6059,7 @@ dependencies = [
  "sp-runtime 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
  "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
  "test-helper",
+ "whitelist-module",
 ]
 
 [[package]]
